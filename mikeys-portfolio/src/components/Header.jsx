@@ -3,10 +3,12 @@ import Navigation from './Navigation';
 
 function Header() {
   return (
-    <div>
+    <header className="bg-secondary text-white py-3">
       <h1>Mikey Whipple</h1>
-      <Navigation />
-    </div>
+      <nav className="nav justify-content-center">
+        <Navigation />
+      </nav>
+    </header>
   );
 }
 
