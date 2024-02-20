@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectCard({ title, imageUrl, projectUrl }) {
   return (
-    <div className="card bg-dark text-white">
+    <div className="card bg-dark text-white flex-fill">
       <a href={projectUrl} target="_blank" rel="noopener noreferrer">
         <img src={imageUrl} className="card-img" alt={title} />
         <div className="card-img-overlay d-flex align-items-end p-0">
