@@ -36,7 +36,7 @@ function Portfolio() {
   ];
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 portfolio-section">
       <h2 className="text-center mb-4">Portfolio</h2>
       <div className="row g-4">
         {projects.map((project, index) => (
