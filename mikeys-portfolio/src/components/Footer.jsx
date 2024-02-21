@@ -10,6 +10,9 @@ function Footer() {
         <a href="https://github.com/EmpireAntz" className="" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </a>
+        <a href="https://twitter.com" className="" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-twitter"></i>
+        </a>
       </div>
     </footer>
   );

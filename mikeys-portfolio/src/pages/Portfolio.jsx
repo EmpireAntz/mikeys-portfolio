@@ -5,33 +5,33 @@ function Portfolio() {
   const projects = [
     {
       title: 'Convo',
-      imageUrl: './public/convoimg.png',
+      imageUrl: './convoimg.png',
       projectUrl: 'https://instant-message-bc5aadb93a5f.herokuapp.com/'
     },
     {
       title: 'Blooker',
-      imageUrl: './public/blookerimg.png',
+      imageUrl: './blookerimg.png',
       projectUrl: 'https://empireantz.github.io/book-search/'
     },
     {
       title: 'D&D Character Generator',
-      imageUrl: './public/dndgenimg.png',
+      imageUrl: './dndgenimg.png',
       projectUrl: 'https://github.com/EmpireAntz/dd-image-gen'
     },
     {
       title: 'Weather Forecast',
-      imageUrl: './public/weatherimg.png',
+      imageUrl: './weatherimg.png',
       projectUrl: 'https://empireantz.github.io/weather-forecast/'
     },
     {
       title: 'Note Taker',
-      imageUrl: './public/notetakerimg.png',
+      imageUrl: './notetakerimg.png',
       projectUrl: 'https://shrouded-spire-73338-77126ebbed1f.herokuapp.com/'
     },
     {
-      title: 'proj6',
-      imageUrl: './public/blookerimg.png',
-      projectUrl: 'https://github.com/EmpireAntz/dd-image-gen'
+      title: 'README Generator',
+      imageUrl: './readmeimg.png',
+      projectUrl: 'https://github.com/EmpireAntz/readme-generator'
     },
   ];
 
