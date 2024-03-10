@@ -1,37 +1,43 @@
-import React from 'react';
-import ProjectCard from '../components/ProjectCard';
+import React from "react";
+import ProjectCard from "../components/ProjectCard";
 
 function Portfolio() {
   const projects = [
     {
-      title: 'Convo',
-      imageUrl: './convoimg.png',
-      projectUrl: 'https://instant-message-bc5aadb93a5f.herokuapp.com/'
+      title: "D&D Character Generator",
+      imageUrl: "./dndgenimg.png",
+      projectUrl: "https://dnd-generator-aorl.onrender.com/",
+      githubUrl: "https://github.com/EmpireAntz/dnd-gen",
     },
     {
-      title: 'Blooker',
-      imageUrl: './blookerimg.png',
-      projectUrl: 'https://empireantz.github.io/book-search/'
+      title: "Blooker",
+      imageUrl: "./blookerimg.png",
+      projectUrl: "https://empireantz.github.io/book-search/",
+      githubUrl: "https://github.com/EmpireAntz/book-search",
     },
     {
-      title: 'D&D Character Generator',
-      imageUrl: './dndgenimg.png',
-      projectUrl: 'https://github.com/EmpireAntz/dd-image-gen'
+      title: "Convo",
+      imageUrl: "./convoimg.png",
+      projectUrl: "https://instant-message-bc5aadb93a5f.herokuapp.com/",
+      githubUrl: "https://github.com/EmpireAntz/instant-message",
     },
     {
-      title: 'Weather Forecast',
-      imageUrl: './weatherimg.png',
-      projectUrl: 'https://empireantz.github.io/weather-forecast/'
+      title: "Weather Forecast",
+      imageUrl: "./weatherimg.png",
+      projectUrl: "https://empireantz.github.io/weather-forecast/",
+      githubUrl: "https://github.com/EmpireAntz/weather-forecast",
     },
     {
-      title: 'Note Taker',
-      imageUrl: './notetakerimg.png',
-      projectUrl: 'https://shrouded-spire-73338-77126ebbed1f.herokuapp.com/'
+      title: "Note Taker",
+      imageUrl: "./notetakerimg.png",
+      projectUrl: "https://shrouded-spire-73338-77126ebbed1f.herokuapp.com/",
+      githubUrl: "https://github.com/EmpireAntz/note-taker",
     },
     {
-      title: 'README Generator',
-      imageUrl: './readmeimg.png',
-      projectUrl: 'https://github.com/EmpireAntz/readme-generator'
+      title: "README Generator",
+      imageUrl: "./readmeimg.png",
+      projectUrl: "https://github.com/EmpireAntz/readme-generator",
+      githubUrl: "https://github.com/EmpireAntz/readme-generator",
     },
   ];
 
